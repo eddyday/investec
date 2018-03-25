@@ -45,7 +45,8 @@ investec.controller('aboutController', function ($scope) {
 investec.controller('whyusController', function ($scope) {
   $scope.pageClass='page-why';
   $scope.title = 'Why Us?';
-  $scope.text1 = 'By being part of Investec Wealth & Investment, we have access to a 20 strong in-house Research Team who thoroughly research the markets, and work closely with our Investment Team to ensure that your money is being invested in the right places for you and your investment goals.'
+  $scope.text1 = 'By being part of Investec Wealth & Investment, we have access to a 20 strong in-house Research Team who thoroughly research the markets, and work closely with our Investment Team to ensure that your money is being invested in the right places for you and your investment goals.';
+  $scope.text2 = "We'll never be out of touch, from monthly video updates on the performance of your investments, through to talking to our dedicated Support Team, we're available 365 days a year, online, via our App or on the phone. We're proud of our heritage and the service we offer, which is why it's at the heart of everything we do.";
   $scope.img = '/images/3-2-zebra-png.png';
 });
 
