@@ -1,5 +1,5 @@
 body {
-  font-family: 'HelveticaNeue', Arial, sans-serif;
+  font-family: 'Playfair Display', Arial, sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -7,7 +7,7 @@ body {
     font-size: 12px;
   }
   .navbar-brand {
-    width: 250px;
+    width: 150px;
   }
   .navbar-default {
     background-color: rgba(255,255,255,0.6);
@@ -24,7 +24,7 @@ body {
     font-size: 15px;
   }
   .navbar-brand {
-    width: 320px;
+    width: 220px;
   }
   .navbar-default {
     background-color: transparent;
@@ -32,16 +32,6 @@ body {
     padding-right: 20px;
     padding-left: 20px;
     border-bottom: 0;
-  }
-  .page-home h1::after {
-    content: "...not hardly working ISA";
-    position: absolute;
-    margin-left: 0px;
-    z-index: 10001;
-    width: 100%;
-  }
-  .page-home .black-background .img-responsive {
-    margin-top: 85%;
   }
   .page-home .background-container {
     padding-top: 0;
@@ -56,12 +46,12 @@ body {
   
   @media (min-width: 1200px) {
   html {
-    font-size: 18px;
+    font-size: 16px;
   }
   }
 
 .navbar-default .navbar-nav>li>a {
-  color: rgb(253, 110, 34);
+  color: rgb(105, 151, 209);
   font-size: 18px;
   font-weight: 400;
   padding-top: 30px;
@@ -70,7 +60,9 @@ body {
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:active {
   color: #fff;
 }
-
+.navbar-brand {
+  height: auto;
+}
 .navbar-brand>img {
   height: 100%;
   width: 100%;
@@ -108,7 +100,7 @@ body {
 }
 
 h1 {
-  color: rgb(253, 110, 34);
+  color: rgb(2, 34, 76);
   font-size: 3rem;
   text-align: right;
   font-weight: 100;
@@ -122,7 +114,7 @@ p {
   margin-bottom: 20px;
   text-align: right;
   line-height: 1.5;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 200;
 }
 
@@ -136,7 +128,7 @@ a {
 }
 
 .btn-default {
-  background-color: rgb(253, 110, 34);
+  background-color: rgb(105, 151, 209);
   border: 0;
   border-radius: 3px;
   color: #fff;
@@ -194,4 +186,20 @@ a {
 }
 .fade.ng-leave-active {
   opacity: 0;
+}
+.page-why {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.page-why p {
+  margin-top: 30px;
+  text-align: center;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  background-color: white;
+}
+.page-why h1 {
+  text-align: left;
 }

@@ -18,7 +18,7 @@ investec.config(function ($routeProvider, $locationProvider) {
 
     // route for the contact page
     .when('/whyus', {
-      templateUrl: 'pages/info.html',
+      templateUrl: 'pages/why.html',
       controller: 'whyusController'
     })
     .otherwise({
@@ -37,16 +37,15 @@ investec.controller('homeController', function ($scope) {
 investec.controller('aboutController', function ($scope) {
   $scope.pageClass='page-about';
   $scope.title = 'About Us';
-  $scope.text1 = 'Click & Invest offers you simplified advice which is a form of restricted advice. Restricted advice means that we will only advise you on investment management, and will not advise you on other retail investment products such as life policies.';
-  $scope.text2 = 'Simplified advice means that we will not take into account your overall current financial situation, or any investments you may already hold. It is based solely on the information that you have provided to us, and the amount of money you have told us you would like to invest.';
-  $scope.img = '/images/isa.png';
+  $scope.text1 = 'We provide financial products and services, imbued with a personal approach, to a select client base in three principal markets: the UK and Europe, Southern Africa and Asia-Pacific. Investec was founded in South Africa in 1974. We entered the UK in 1992, and have since expanded through a combination of substantial organic growth and strategic acquisitions.';
+  $scope.text2 = 'Today Investec employs more than 9,900 people worldwide and is publicly traded in London and Johannesburg. Our divisions include Corporate & Institutional Banking, Private Banking, Wealth & Investment and Asset Management.';
+  $scope.img = '/images/zebra_contrast.png';
 });
 
 investec.controller('whyusController', function ($scope) {
   $scope.pageClass='page-why';
-  $scope.title = 'Why Us?';
-  $scope.text1 = 'By being part of Investec Wealth & Investment, we have access to a 20 strong in-house Research Team who thoroughly research the markets, and work closely with our Investment Team to ensure that your money is being invested in the right places for you and your investment goals.';
-  $scope.text2 = "We'll never be out of touch, from monthly video updates on the performance of your investments, through to talking to our dedicated Support Team, we're available 365 days a year, online, via our App or on the phone. We're proud of our heritage and the service we offer, which is why it's at the heart of everything we do.";
+  $scope.title = 'Our Culture';
+  $scope.text1 = 'Our culture enables extraordinary people to perform in Out of the Ordinary ways. It is the passion and dedication of our people that enables us to deliver superior client service and value for stakeholders.';
   $scope.img = '/images/3-2-zebra-png.png';
 });
 
